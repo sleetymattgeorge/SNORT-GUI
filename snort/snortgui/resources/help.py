@@ -16,44 +16,44 @@ canvas.pack(fill=tk.BOTH, expand=True)
 
 # display bg image
 img = Image.open(".resources/images/snort1.png")
-img = img.resize((950, 700), Image.ANTIALIAS)
+img = img.resize((950, 700), Image.Resampling.LANCZOS)
 img = ImageTk.PhotoImage(img)
 canvas.create_image(0, 0, image=img, anchor=tk.NW)
 
 img1 = Image.open(".resources/images/snort2.png")
-img1 = img1.resize((300, 200), Image.ANTIALIAS)
+img1 = img1.resize((300, 200), Image.Resampling.LANCZOS)
 img1 = ImageTk.PhotoImage(img1)
 
 sn1 = Image.open(".resources/images/sh1.png")
-sn1 = sn1.resize((500, 400), Image.ANTIALIAS)
+sn1 = sn1.resize((500, 400), Image.Resampling.LANCZOS)
 sn1 = ImageTk.PhotoImage(sn1)
 
 sn2 = Image.open(".resources/images/sh2.png")
-sn2 = sn2.resize((500, 400), Image.ANTIALIAS)
+sn2 = sn2.resize((500, 400), Image.Resampling.LANCZOS)
 sn2 = ImageTk.PhotoImage(sn2)
 
 sn3 = Image.open(".resources/images/sh3.png")
-sn3 = sn3.resize((500, 400), Image.ANTIALIAS)
+sn3 = sn3.resize((500, 400), Image.Resampling.LANCZOS)
 sn3 = ImageTk.PhotoImage(sn3)
 
 sn4 = Image.open(".resources/images/sh4.png")
-sn4 = sn4.resize((500, 400), Image.ANTIALIAS)
+sn4 = sn4.resize((500, 400), Image.Resampling.LANCZOS)
 sn4 = ImageTk.PhotoImage(sn4)
 
 sn5 = Image.open(".resources/images/sh5.png")
-sn5 = sn5.resize((500, 400), Image.ANTIALIAS)
+sn5 = sn5.resize((500, 400), Image.Resampling.LANCZOS)
 sn5 = ImageTk.PhotoImage(sn5)
 
 sn6 = Image.open(".resources/images/sh6.png")
-sn6 = sn6.resize((500, 400), Image.ANTIALIAS)
+sn6 = sn6.resize((500, 400), Image.Resampling.LANCZOS)
 sn6 = ImageTk.PhotoImage(sn6)
 
 sn7 = Image.open(".resources/images/sh7.png")
-sn7 = sn7.resize((500, 400), Image.ANTIALIAS)
+sn7 = sn7.resize((500, 400), Image.Resampling.LANCZOS)
 sn7 = ImageTk.PhotoImage(sn7)
 
 sn8 = Image.open(".resources/images/sh8.png")
-sn8 = sn8.resize((500, 400), Image.ANTIALIAS)
+sn8 = sn8.resize((500, 400), Image.Resampling.LANCZOS)
 sn8 = ImageTk.PhotoImage(sn8)
 
 def callback(url):

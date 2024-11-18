@@ -28,7 +28,7 @@ try:
                 # load and display the background image
 
                 img = Image.open('.resources/info/images/snort.jpg')
-                img = img.resize((1200, 650), Image.ANTIALIAS)
+                img = img.resize((1200, 650), Image.Resampling.LANCZOS)
                 img = ImageTk.PhotoImage(img)
                 canvas.create_image(0, 0, image=img, anchor=tk.NW)
 
