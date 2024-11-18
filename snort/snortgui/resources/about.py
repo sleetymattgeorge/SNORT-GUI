@@ -32,7 +32,7 @@ canvas.pack(fill=tk.BOTH, expand=True)
 # load and display the background image
 
 img = Image.open('.resources/info/images/snort_about.jpg')
-img = img.resize((600, 515), Image.ANTIALIAS)
+img = img.resize((600, 515), Image.Resampling.LANCZOS)
 img = ImageTk.PhotoImage(img)
 canvas.create_image(0, 0, image=img, anchor=tk.NW)
 
