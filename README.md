@@ -21,7 +21,7 @@ A actively developed blue team application for SNORT, a popular Intrusion Detect
 
 ## SNORT GUI v3
 
-> STATUS: :heavy_check_mark:
+> STATUS: ...discontinued since i got bored
 
 The SNORT GUI main program consists of:
 
