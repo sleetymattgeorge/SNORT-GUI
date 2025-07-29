@@ -11,7 +11,8 @@ A actively developed blue team application for SNORT, a popular Intrusion Detect
     * [Download](#download)
     * [Installation](#installation)
 3. [Connect with Me](#connect-with-me)
-4. [Credits](#credits)
+4. [OS-Support](#os-support)
+5. [Credits](#credits)
 
 ## Research Architecture
 
@@ -100,6 +101,9 @@ Figure 3.2: Running SNORT
 - [LinkedIn](https://www.linkedin.com/in/whcyberus/)
 - [Blogs](https://ethicalcyberuspathways.wordpress.com/)
 - [Email](mailto:whcyberus@gmail.com)
+
+## OS Support
+> Intended for GUI Linux distros only. (Tested on Ubuntu).
 
 ## Credits
 
