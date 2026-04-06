@@ -1,4 +1,4 @@
-# SNORT GUI `Python-tkinter`
+# SNORT GUI `Python-tkinter` *DISCONTINUED*
 > **Warning**: This application is **Completed** as of May 2023, further updates to the application are *discontinued* and bears no warranty in the future. As of now , May, 2023, the application runs optimally, keeping in mind the security and complexity of the current real world network scenario. Usage of this application for commercial or educational use requires scrutiny of network administrative personnel. Any loss in data, damage to configuration should be under user discretion.
 
 ## About
